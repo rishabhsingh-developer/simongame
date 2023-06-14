@@ -1,0 +1,60 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background-color: plum;
+    
+}
+.btn{
+    height: 21rem;
+    width: 21rem;
+    border: 10px solid black;
+    border-radius: 4rem;
+    
+}
+h1{
+    font-size: 10rem;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    margin-top: 5rem;
+}
+.box-1,.box-2{
+    display: flex;
+    justify-content: center;
+    
+    gap: 5rem;
+    margin-top: 5rem;
+}
+.btn-1{
+    background-color: green;
+}
+.btn-2{
+    background-color: red;
+}
+.btn-3{
+    background-color: blue;
+}
+.btn-4{
+    background-color: rgb(232, 232, 13);
+}
+.ani{
+    opacity: 0.5;
+    
+
+}
+@media(max-width:600px){
+    html{
+        font-size: 40%;
+    }
+   
+}
